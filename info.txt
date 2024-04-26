@@ -1,0 +1,97 @@
+// How to create Full working rest api Using : Express.js 
+// Now i can Build Full CRUD API with DataBase
+dTG1WbUsLMLiS1yk
+There are no stadrter files here. We start everything from scratch in the videos.
+# mongodb+srv://fadoolwajdi:<password>@cluster0.c3xmaat.mongodb.net/?retryWrites=true&w=majority
+11 : Express Setup
+npm i express // instll the experss 
+npm start  // run the server 
+
+
+22: install nodemaon that will watch the server for changes 
+    2: creating seprationg files 
+    2 npm install -D nodemon
+    // "start": "node server.js" change back to thuis
+
+3 :  adding middleware 
+    compliting the CRUD 
+    
+    4:  - Installing mongooses  and  dotenv (object data mapper)
+        npm i mongooses dotenv
+
+
+5: working with monfog
+
+frontEnd 
+http://localhost:3000/ is the development 
+http://localhost:5000/ is the production code 
+
+all prodctuin files goes into public folder 
+client is our Development older
+install font aowsem via nom 
+ 
+
+
+// 1 // we want to work with axios 
+
+
+// 2 // the server block port 3000 this is the error that we get 
+nom i cores 
+GET https://localhost:5000/
+
+
+It says it has been blocked by cors.
+
+So cors is cross-origin resource sharing.
+
+And basically what we need to do is on our back end, we need to enable CORS and we need to enable requests
+
+from this URL.
+
+You can you can enable requests from any URL if you want, but that's not really secure.
+
+So I'm just going to add localhost 3000 as, as a URL we can make a request from.
+
+
+enable port 3000 
+
+
+
+
+for the backed so we can acseess the server on port 3000 
+
+
+
+// 262
+
+front end validation 
+save user to local Storage 
+
+
+//263 mimic authentication  see Node JS masterclass In udemy 
+
+
+/// Deployment 
+removes imported font aowsem and removed it to index html 
+
+
+username : fadoolwajdi
+password : shRv43bXUvMILNMJ
+mongodb+srv://fadoolwajdi:shRv43bXUvMILNMJ@cluste0.umohtll.mongodb.net/
+
+
+
+
+new 
+
+e8akILx6ri5ABIqb
+e8akILx6ri5ABIqb
+
+fadoolwajdi
+
+mongodb+srv://fadoolwajdi:e8akILx6ri5ABIqb@cluster0.auvjnyq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+
+mongodb+srv://fadoolwajdi:<password>@cluster0.auvjnyq.mongodb.net/
+
+randomideas

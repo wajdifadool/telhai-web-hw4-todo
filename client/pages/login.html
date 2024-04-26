@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme-value="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+
+    <!-- bootstrap iccons 
+    https://blog.getbootstrap.com/2021/01/07/bootstrap-icons-1-3-0/ -->
+    <!-- Option 1: Include in HTML -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <title>HW4 - To Do Project</title>
+  </head>
+
+  <!-- Body goes here  -->
+  <!-- this is the main Page  -->
+  <body>
+    <!-- Navigation bar goes here  -->
+
+    <!-- https://getbootstrap.com/docs/5.3/components/navbar/#image -->
+    <nav
+      class="navbar navbar-expand-sm bg-dark navbar-dark py-2 align-items-center">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img width="40" height="40" src="../icon.png" alt="" class="" />
+          HomeWork 04
+        </a>
+
+        <!-- add the hamburger Menu Button  -->
+        <!-- we need  to tell wich to collapse there for we add
+        data-bs-target="#navmenuID" and add the id to the ELEMENT 
+        we want to target-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenuID">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- the menuitems goes here  -->
+        <!-- we want it to collapse in small screen  -->
+        <!-- add ms ato  -->
+        <div class="collapse navbar-collapse" id="navmenuID">
+          <!-- ms-auto-> margin start auto will align the links to the start (left) -->
+
+          <!-- make  Sure to add the current  -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link current btn" id="btn-login">LogIn</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link btn" id="btn-signup">SignUp</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container p-5 mt-5">
+      <form class="mt-5 p-5">
+        <h3>Login Here</h3>
+
+        <label for="email">Email</label>
+        <input type="email" placeholder="Email" id="email" />
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password" />
+        <small id="error"></small>
+        <!-- Error message for password -->
+        <button>Log In</button>
+      </form>
+    </div>
+
+    <!-- addinf  the footer  -->
+    <!-- why we postion relative ? because we want to have  go up button and we want 
+    to position it abbsloute -->
+    <footer class="p-2 bg-dark text-white text-center mt-auto">
+      <p class="fw-light">Made By Wajde Fadool &copy; 2024</p>
+    </footer>
+
+    <!-- the best part if bootstrap v5  that we ddont  need to include jquery    -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+
+    <script src="../js/login.js" type="module" defer></script>
+  </body>
+</html>
+
+<!--  -->
