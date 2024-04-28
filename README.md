@@ -33,6 +33,8 @@ This is a Todo full stack web application project.
 
 - Navigate to `/client/pages` and open `login.html`. (It is recommended to work with Live Server)
 
+![schemas](https://github.com/wajdifadool/telhai-web-hw4-todo/assets/16064194/dcbd1336-2b01-4694-83d0-36966cc74398)
+
 
 ### templates i used: 
 
