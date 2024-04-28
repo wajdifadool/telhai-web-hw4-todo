@@ -1,4 +1,4 @@
-# Todo Full Stack Web App
+# Todo Full Stack mini web App
 
 This is a Todo full stack web application project.
 
@@ -27,9 +27,9 @@ This is a Todo full stack web application project.
     npm start
     ```
 
-   The server runs on port 5000.
+   The server runs on port 8000.
 
-- Enable ports `in server.js` in the app.cors()  - Currently works with port `5500` , `5000`
+- Enable ports `in server.js` in the app.cors()  - Currently works with port `5000`
 
 - Navigate to `/client/pages` and open `login.html`. (It is recommended to work with Live Server)
 
