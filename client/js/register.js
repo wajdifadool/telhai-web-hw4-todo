@@ -62,8 +62,8 @@ class RegisterForm {
         // Save To local Stroage user credintals,
         Storage.saveUser(newUser.data.user);
         // TODO: seestion Stroage :
-        history.replaceState(null, '', '/frontend/public/pages/todos.html');
-        window.location.href = '/frontend/public/pages/todos.html';
+        history.replaceState(null, '', '../pages/todos.html');
+        window.location.href = '../pages/todos.html';
       } catch (error) {
         console.log(error);
         if (error.response.status === 409) {

@@ -1,11 +1,11 @@
 const path = require('path');
 // get Expres
 const express = require('express');
-// enable cors and localHost/3000
+
 const cors = require('cors');
 
 require('dotenv').config();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8000;
 // get the Connection DB from  the db file
 const connectDB = require('./config/db');
 
@@ -35,11 +35,7 @@ app.use(express.urlencoded({ extended: false })); // this is the common way to d
 app.use(
   cors({
     // enbled URL that allowed to route to the server on both envoirment , dev and production
-    origin: [
-      'http://127.0.0.1:5500',
-      'http://localhost:5500',
-      'http://localhost:5000',
-    ],
+    origin: ['http://127.0.0.1:5000'],
     credentials: true,
   })
 );

@@ -47,8 +47,8 @@ const ToDo = require('../models/todoModel');
 
 // Create ToDo for a specific user TESTED
 router.post('/:userId', async (req, res) => {
-  console.log(req.body);
-  console.log(req.params);
+  // console.log(req.body);
+  // console.log(req.params);
   try {
     const { userId } = req.params;
     const { title } = req.body;
